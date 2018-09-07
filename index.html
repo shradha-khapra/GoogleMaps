@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <title>test-1</title>
+    <link href="GOOGLE-MAPS.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bree+Serif|Jacques+Francois+Shadow|Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+
+<div id="box">
+    <div id="heading" ><h1 style="text-align: center;font-family: 'Jacques Francois Shadow', cursive;font-size:40px;">GOOGLE MAP</h1></div>
+    <div id="map"></div>
+    <div id="instruct" >
+        <h1 style="">INSTRUCTIONS:</h1>
+        <h2 style="font-family: 'Libre Baskerville', serif;">1)Click once to add a pointer & see the weather of the place<br>
+            <br>2)Click twice to zoom-in along with it
+       <br><br>3)Click on pointer to view its weather
+        <br><br><button id="btn2" style="font-family: 'Fjalla One', sans-serif; ">DELETE ALL WINDOWS</button>
+            <br><br><button id="btn1" style="font-family: 'Fjalla One', sans-serif; ">DELETE ALL POINTERS</button></h2>
+    </div>
+</div>
+
+</body>
+
+
+<script src="jQuery.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFyrk6QMg7gqU5dY5Ao_xDb5qTd3FLi4g&callback=initMap&libraries=places">
+</script>
+<script src="GOOGLE-MAPS.js"></script>
+
+</html>
